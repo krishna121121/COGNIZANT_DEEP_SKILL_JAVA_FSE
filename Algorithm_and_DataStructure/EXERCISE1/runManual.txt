@@ -1,0 +1,17 @@
+To run this program and all are inside one folder or Package follow following steps:
+    first go to the parent folder and then use both the command one by one 
+    1.javac EXERCISE1/*.java
+    2.java Algorithm_and_DataStructure.EXERCISE1.Main
+
+
+
+terminal output should look like this:
+    PS D:\COGNIZANT_DEEP_SKILLING> javac EXERCISE1/*.java
+    >> java EXERCISE1.Main
+    Product added successfully.
+    Product added successfully.
+    Product ID: 101, Name: Laptop, Quantity: 20, Price: $50000.0
+    Product updated successfully.
+    Product ID: 101, Name: Gaming Laptop, Quantity: 15, Price: $65000.0
+    Product deleted successfully.
+    PS D:\COGNIZANT_DEEP_SKILLING> 
