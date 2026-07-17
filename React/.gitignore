@@ -1,0 +1,110 @@
+# =========================
+# Java / Maven
+# =========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven wrapper logs
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# =========================
+# Spring Boot
+# =========================
+logs/
+*.log
+*.pid
+
+# Application secrets (uncomment if needed)
+# application.properties
+# application.yml
+# application-dev.yml
+# application-prod.yml
+# .env
+
+# =========================
+# Node.js / React
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build folders
+dist/
+build/
+coverage/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE Files
+# =========================
+.idea/
+*.iml
+
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+
+# Eclipse
+.metadata/
+
+# NetBeans
+nbproject/private/
+
+# =========================
+# Operating System Files
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Miscellaneous
+# =========================
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# =========================
+# Test Reports
+# =========================
+surefire-reports/
+failsafe-reports/
+jacoco.exec
+site/
+
+# =========================
+# Archives
+# =========================
+*.zip
+*.tar
+*.gz
+*.rar
+
+# =========================
+# IntelliJ
+# =========================
+out/
+
+# =========================
+# VS Code
+# =========================
+.history/
